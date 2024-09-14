@@ -11,14 +11,14 @@
 
 @font-face { 
     font-family: 'MyFont';
-    src: url('../font/KantumruyPro-Regular.ttf');
+    src: url('../assets/font/KantumruyPro-Regular.ttf');
     unicode-range: U+1780-17FF;
 }
 
 /* English font */
 @font-face { 
     font-family: 'MyFont';
-    src: url('../font/Montserrat-Regular.ttf');
+    src: url('../assets/font/Montserrat-Regular.ttf');
     unicode-range: U+0020-007F;
 }
 
