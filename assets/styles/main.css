@@ -1,0 +1,40 @@
+:root{
+    --clr-primary: #3b82f6;
+    --clr-dark: #0f172a;
+    --clr-dark-slate: #1e293b;
+    --clr-white: #cbd5e1;
+}
+
+/*
+    Font base for site using
+*/
+
+@font-face { 
+    font-family: 'MyFont';
+    src: url('../font/KantumruyPro-Regular.ttf');
+    unicode-range: U+1780-17FF;
+}
+
+/* English font */
+@font-face { 
+    font-family: 'MyFont';
+    src: url('../font/Montserrat-Regular.ttf');
+    unicode-range: U+0020-007F;
+}
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'MyFont',sans-serif;
+    /* background-color: var(--clr-dark); */
+    color: var(--clr-white);
+}
+
+/* Hero section css */
+.typed-cursor{
+    font-size: 1.6em;
+}
